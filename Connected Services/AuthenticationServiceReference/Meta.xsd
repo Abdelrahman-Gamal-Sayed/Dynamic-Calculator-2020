@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AuthenticationServiece" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AuthenticationServiece" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="UserRoles">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Admin" />
+      <xs:enumeration value="User" />
+      <xs:enumeration value="Denied" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="UserRoles" nillable="true" type="tns:UserRoles" />
+</xs:schema>

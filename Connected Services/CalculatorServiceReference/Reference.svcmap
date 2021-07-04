@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7d7cfc6e-fdbd-495f-9475-5d699b893984" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8081/CalculatorServiece/Meta" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CalculatorServiece.wsdl" MetadataType="Wsdl" ID="4ae6a3c6-ca4a-415f-b5ae-42f3950b0c04" SourceId="1" SourceUrl="http://localhost:8081/CalculatorServiece/Meta" />
+    <MetadataFile FileName="Meta.xsd" MetadataType="Schema" ID="6b6c3e25-8f79-4792-ac4a-61fc4fc4f32b" SourceId="1" SourceUrl="http://localhost:8081/CalculatorServiece/Meta?xsd=xsd1" />
+    <MetadataFile FileName="Meta1.xsd" MetadataType="Schema" ID="98f63f82-d70a-4c90-b0cd-8410a52e52e8" SourceId="1" SourceUrl="http://localhost:8081/CalculatorServiece/Meta?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
